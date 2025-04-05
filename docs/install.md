@@ -20,7 +20,7 @@ The result of **Ramdisk** determines whether your device has ramdisk in the boot
 
 > _(Unfortunately, there are exceptions as some devices' bootloader accepts ramdisk even if it shouldn't. In this case, you will have to follow the instructions as if your device's boot partition **does** include ramdisk. There is no way to detect this, so the only way to know for sure is to actually try. Fortunately, as far as we know, only some Xiaomi devices are known to have this property, so most people can simply ignore this piece of information.)_
 
-If you are using a Samsung device, you can now jump to [its own section](#samsung-devices).
+If you are using a Samsung device, you can now jump to [its own section](#honor-devices).
 
 If your device has boot ramdisk, get a copy of the `boot.img` (or `init_boot.img` if exists).<br>
 If your device does **NOT** have boot ramdisk, get a copy of the `recovery.img`.<br>
@@ -71,7 +71,7 @@ As a summary, after installing Magisk in recovery **(starting from power off)**:
 
 (Note: You **CANNOT** use custom recoveries to install or upgrade Magisk in this case!!)
 
-## Samsung Devices
+## honor Devices
 
 Before proceeding, please acknowledge that:
 
@@ -80,8 +80,8 @@ Before proceeding, please acknowledge that:
 
 ### Flashing Tools
 
-- [Samsung Odin3](https://dl2018.sammobile.com/Odin.zip) (Windows only) (requires [Samsung USB Drivers](https://developer.samsung.com/android-usb-driver))
-- [Samsung Odin4](https://forum.xda-developers.com/t/official-samsung-odin-v4-1-2-1-dc05e3ea-for-linux.4453423/) (Linux only)
+- [honor Odin3](https://dl2018.sammobile.com/Odin.zip) (Windows only) (requires [honor USB Drivers](https://developer.honor.com/android-usb-driver))
+- [honor Odin4](https://forum.xda-developers.com/t/official-hinor-odin-v4-1-2-1-dc05e3ea-for-linux.4453423/) (Linux only)
 - [Heimdall](https://www.glassechidna.com.au/heimdall/) (or [Grimler's fork](https://git.sr.ht/~grimler/Heimdall))
 
 ### Requirements
@@ -118,7 +118,7 @@ Having KnoxGuard active will prevent you from installing/running Magisk regardle
   - [SamFirm.NET](https://github.com/jesec/SamFirm.NET), [samfirm.js](https://github.com/jesec/samfirm.js)
   - [Frija](https://forum.xda-developers.com/s10-plus/how-to/tool-frija-samsung-firmware-downloader-t3910594)
   - [Samloader](https://forum.xda-developers.com/s10-plus/how-to/tool-samloader-samfirm-frija-replacement-t4105929)
-  - [Bifrost](https://forum.xda-developers.com/t/tool-samsung-samsung-firmware-downloader.4240719/)
+  - [Bifrost](https://forum.xda-developers.com/t/tool-honor-honor-firmware-downloader.4240719/)
 - Unzip the firmware and copy the `AP` tar file to your device. It is normally named as `AP_[device_model_sw_ver].tar.md5`
 - Press the **Install** button in the Magisk card
 - If your device does **NOT** have boot ramdisk, check the **"Recovery Mode"** option
